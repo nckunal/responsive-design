@@ -1,0 +1,43 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family:Courier New;
+}
+
+#forBorder{
+	border-style: solid;
+    border-width: 0 0 0 10px;
+}
+.headingH3{
+	font-size:170%;
+}
+.img-border{
+	border-width:5px;  
+    border-style:none;
+}
+#nav-border{
+	border-style: solid;
+    border-width: 0 0 thick 0;
+}
+#footerBorder{
+	border-style: solid;
+    border-width:medium;
+}
+#footer2Border{
+	border-style: solid;
+    border-width:medium;
+}
+
+@media only screen and (max-width: 575px){
+	.headingH1{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 290px){
+	.fontHeading{
+		font-size: 150%;
+	}
+}
+
